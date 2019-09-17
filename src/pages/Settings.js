@@ -47,11 +47,11 @@ export default function ({ state }) {
             </div>
 
             <Preview state={state} />
-            <Tips />
 
             <textarea defaultValue={state.text} onInput={e => dispatch({ type: 'update_text', payload: e.target.value })}></textarea>
 
             <div className="start-btn" onClick={() => dispatch({ type: 'switch_page', payload: 'display' })}>开始</div>
+            <Tips />
         </div >
     )
 }
