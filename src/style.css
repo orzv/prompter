@@ -137,6 +137,7 @@ textarea {
 
 .display-view pre {
     white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 .backbtn {
